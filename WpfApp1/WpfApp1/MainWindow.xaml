@@ -1,0 +1,25 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Name="text" Content="Text" HorizontalAlignment="Left" Margin="30,31,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Name="bash" Content="Bash" HorizontalAlignment="Left" Margin="80,31,0,0" VerticalAlignment="Top" Click="Button_Click" Tag="test2"/>
+        <Button Name="cpp" Content="C++" HorizontalAlignment="Left" Margin="130,31,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Name="cs" Content="C#" HorizontalAlignment="Left" Margin="180,31,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Name="java" Content="Java" HorizontalAlignment="Left" Margin="230,31,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Name="css" Content="CSS" HorizontalAlignment="Left" Margin="280,31,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Name="html" Content="HTML" HorizontalAlignment="Left" Margin="330,31,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Name="javascript" Content="JavaScript" HorizontalAlignment="Left" Margin="380,31,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Name="php" Content="Php" HorizontalAlignment="Left" Margin="450,31,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Name="python" Content="Python" HorizontalAlignment="Left" Margin="500,31,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Name="sql" Content="SQL" HorizontalAlignment="Left" Margin="560,31,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Click="Button_Click"/>
+        <Grid Name="GridChild" HorizontalAlignment="Center" Height="208" Margin="0,193,0,0" VerticalAlignment="Top" Width="604" RenderTransformOrigin="0.497,0.506"/>
+    
+
+    </Grid>
+</Window>
